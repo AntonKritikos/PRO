@@ -1,0 +1,112 @@
+body
+{
+    /*font-size:80px;*/
+    max-height:100%;
+    max-width:100%;
+}
+img
+{
+    border:0;
+}
+#subject1
+{
+    background-image:url(http://1.bp.blogspot.com/-D3xC4dMiICo/UkF9k1gAbYI/AAAAAAAAKKA/Hut80dtz_dg/s1600/johnny_depp_png_by_diannaagron-d4gy2m5.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#subject2
+{
+    background-image:url(http://vignette3.wikia.nocookie.net/zh.uncyclopedia/images/c/c3/Nicolas-Cage-wallpaper-picture-08.png/revision/latest?cb=20130118210632);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom;
+}
+#subject3
+{
+    background-image:url(http://vignette3.wikia.nocookie.net/furymovie/images/0/0e/Brad_Pitt.png/revision/latest?cb=20141116003551);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#subject3
+{
+    background-image:url(http://orig10.deviantart.net/7a99/f/2015/048/d/d/9462495de0b24ee1159a6fbfdda5ec16_by_any14-d8ieaq0.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.subjectBack
+{
+    margin-top:100%;
+    color:white;
+}
+.screen
+{
+    width:100%;
+    height:100%;
+    border:solid 1px black;
+    overflow:hidden;
+    display:inline-block;
+    position:absolute;
+    transition:all 0.5s ease;
+    top:0;
+    left:0;
+    background-color: lightblue;
+}
+.screen.welcome
+{
+    background-color: lightblue;
+}
+.screen.scan
+{
+    background-color: lightblue;
+}
+.screen.scanned
+{
+    background-color: lightblue;
+}
+.screen.content
+{
+}
+.subjects
+{
+    height:auto;
+    width:100%;
+    margin-top:2%;
+    font-size:50px;
+    border:2px solid black;
+    background-color:lightyellow;
+}
+.screen.notification
+{
+    margin-top:140%;
+    height:10%;
+    width:100%;
+    border:2px solid black;
+    background-color:lightgreen;
+    z-index:2;
+}
+.hidden
+{
+    visibility:hidden;
+}
+.backButton
+{    
+    
+}
+
+/*Verstopte Schermen*/
+.screen.hiddenRight
+{
+    margin-left:100%;
+}
+.screen.hiddenLeft
+{
+    margin-left:-100%;
+}
+.screen.hiddenTop
+{
+    margin-top:-100%;
+}
+.screen.hiddenBottom
+{
+    margin-top:180%;
+}
